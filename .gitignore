@@ -1,0 +1,80 @@
+# Build results
+[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Oo]ut/
+[Pp]ublish/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# MSBuild / NuGet
+*.binlog
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Windows / OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# .NET publish / self-contained output
+publish/
+*.publishsettings
+*.pubxml
+
+# Secrets and local configuration
+# sshmcp.settings.json contains real SSH credentials, sudo passwords and private-key paths.
+# Never commit it. Use sshmcp.settings.json.example as a template.
+sshmcp.settings.json
+sshmcp.settings.*.json
+!sshmcp.settings.json.example
+# Legacy configuration name kept ignored for safety
+appsettings.json
+appsettings.*.json
+!appsettings.json.example
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+userSecrets/
+.env
+.env.*
+!.env.example
+
+# SSH keys that may accidentally be placed in the repository
+id_rsa
+id_rsa.*
+id_dsa
+id_dsa.*
+id_ecdsa
+id_ecdsa.*
+id_ed25519
+id_ed25519.*
+known_hosts
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log

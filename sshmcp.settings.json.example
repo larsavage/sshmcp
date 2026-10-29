@@ -1,0 +1,25 @@
+{
+  "Ssh": {
+    "Servers": {
+      "production": {
+        "Description": "Production Linux server",
+        "Host": "192.168.1.20",
+        "Port": 22,
+        "Username": "deploy",
+        "PrivateKeyPath": "C:\\Users\\me\\.ssh\\id_ed25519",
+        "SudoPassword": "",
+        "AllowFileTransfer": true,
+        "AllowedCommandPrefixes": []
+      },
+      "development": {
+        "Description": "Development Linux server",
+        "Host": "192.168.1.21",
+        "Port": 22,
+        "Username": "developer",
+        "Password": "",
+        "AllowFileTransfer": true,
+        "AllowedCommandPrefixes": []
+      }
+    }
+  }
+}
